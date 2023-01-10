@@ -6,7 +6,7 @@
 
 ### App Walk-though
 
-https://gfycat.com/creativeidleleopard
+https://i.imgur.com/fDjz2kU.gif
 
 ### Required Features
 
