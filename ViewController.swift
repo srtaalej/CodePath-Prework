@@ -22,7 +22,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var majorField: UITextField!
     @IBOutlet weak var yesNoSegCtrl: UISegmentedControl!  //are u a hunter student?
     
-    @IBOutlet weak var whereYouFrom: UITextField!
+    @IBOutlet weak var morePetsSwitch: UISwitch!
+    
     @IBAction func stepperDidChange(_ sender: UIStepper) {
         numOfPetsLabel.text = "\(Int(sender.value))"
     }
@@ -33,17 +34,25 @@ class ViewController: UIViewController {
         // Creating a constant of type string that holds an introduction. The introduction receives the values from the outlet connections.
         
         
-        var introduction = "Hey there classmate! Just two more years to go! Here's your introduction: Hi! My name is \(firstNameField.text!) \(lastNameField.text!) and I go to \(schoolNameField.text!). I am currently in my \(year!) year and I'm from \(whereYouFrom.text!). I am a \(majorField.text!) major and I graduate in \(numOfPetsLabel.text!))."
+        var introduction = "Hi! My name is \(firstNameField.text!) \(lastNameField.text!). I go to \(schoolNameField.text!) and I am currently in my \(year!) year. I am a \(majorField.text!) major and I have \(numOfPetsLabel.text!) pets. It is \(morePetsSwitch.isOn) that I want more pets."
         
         
-        if(numOfPetsLabel.text! == "2025" && hunterStu == "Yes")
+//        if(numOfPetsLabel.text! == "2025" && hunterStu == "Yes")
+//        {
+//            introduction = "Hey there classmate! Just two more years to go! Here's your introduction: Hey there classmate! Just two more years to go! Here's your introduction: Hi! My name is \(firstNameField.text!) \(lastNameField.text!) and I go to \(schoolNameField.text!). I am currently in my \(year!) year and I'm from \(whereYouFrom.text!). I am a \(majorField.text!) major and I graduate in \(numOfPetsLabel.text!))."
+//        }
+        if (numOfPetsLabel.text! == "1")
         {
-            introduction = "Hey there classmate! Just two more years to go! Here's your introduction: Hey there classmate! Just two more years to go! Here's your introduction: Hi! My name is \(firstNameField.text!) \(lastNameField.text!) and I go to \(schoolNameField.text!). I am currently in my \(year!) year and I'm from \(whereYouFrom.text!). I am a \(majorField.text!) major and I graduate in \(numOfPetsLabel.text!))."
+            introduction = "Hey there Hawk! Here's your introduction: Hi! My name is \(firstNameField.text!) \(lastNameField.text!). I go to \(schoolNameField.text!) and I am currently in my \(year!) year. I am a \(majorField.text!) major and I have \(numOfPetsLabel.text!) pet. It is \(morePetsSwitch.isOn) that I want more pets."
         }
         
         if (hunterStu == "Yes")
         {
-            introduction = "Hey there Hawk! Here's your introduction: Hey there classmate! Just two more years to go! Here's your introduction: Hi! My name is \(firstNameField.text!) \(lastNameField.text!) and I go to \(schoolNameField.text!). I am currently in my \(year!) year and I'm from \(whereYouFrom.text!). I am a \(majorField.text!) major and I graduate in \(numOfPetsLabel.text!))."
+            introduction = "Hey there Hawk! Here's your introduction: Hi! My name is \(firstNameField.text!) \(lastNameField.text!). I go to \(schoolNameField.text!) and I am currently in my \(year!) year. I am a \(majorField.text!) major and I have \(numOfPetsLabel.text!) pets. It is \(morePetsSwitch.isOn) that I want more pets."
+        }
+        if (hunterStu == "Yes" && numOfPetsLabel.text! == "1")
+        {
+            introduction = "Hey there Hawk! Here's your introduction: Hi! My name is \(firstNameField.text!) \(lastNameField.text!). I go to \(schoolNameField.text!) and I am currently in my \(year!) year. I am a \(majorField.text!) major and I have \(numOfPetsLabel.text!) pet. It is \(morePetsSwitch.isOn) that I want more pets."
         }
              
         // Creates the alert where we pass in our message, which our introduction.

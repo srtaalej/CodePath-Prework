@@ -37,22 +37,22 @@
                                 <color key="textColor" red="1" green="0.95754630600000001" blue="0.38562396570000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Where are you from?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFK-c1-jTC">
-                                <rect key="frame" x="53" y="604" width="206" height="28"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More pets?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFK-c1-jTC">
+                                <rect key="frame" x="53" y="607" width="111" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <color key="textColor" red="1" green="0.95754630600000001" blue="0.38562396570000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Class" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LMS-gm-RWt">
-                                <rect key="frame" x="53" y="552" width="55" height="28"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pets" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LMS-gm-RWt">
+                                <rect key="frame" x="53" y="552" width="44" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <color key="textColor" red="1" green="0.95754630600000001" blue="0.38562396570000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2023" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W0U-RN-s9E">
-                                <rect key="frame" x="143" y="552" width="55" height="28"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W0U-RN-s9E">
+                                <rect key="frame" x="143" y="552" width="15" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="23"/>
                                 <color key="textColor" red="1" green="0.95754630600000001" blue="0.38562396570000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -91,7 +91,7 @@
                                 </segments>
                                 <color key="selectedSegmentTintColor" red="1" green="0.95754630600000001" blue="0.38562396570000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </segmentedControl>
-                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2023" maximumValue="2100" translatesAutoresizingMaskIntoConstraints="NO" id="MLD-cg-sGe">
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="MLD-cg-sGe">
                                 <rect key="frame" x="240" y="550" width="94" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.95754630600000001" blue="0.38562396570000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -153,17 +153,14 @@
                                     <action selector="introduceBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hcR-rq-OEq"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jyj-he-xnb">
-                                <rect key="frame" x="53" y="640" width="253" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76472460191807134" green="0.40678280506362441" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hawks" translatesAutoresizingMaskIntoConstraints="NO" id="1Iy-MN-9Z3">
                                 <rect key="frame" x="67" y="51" width="258" height="127"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ESp-1S-VhR">
+                                <rect key="frame" x="264" y="607" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.60145996447168548" green="0.31993683852670413" blue="0.7865053157216495" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -172,11 +169,11 @@
                         <outlet property="firstNameField" destination="gT0-kS-rbE" id="4PK-RX-fIC"/>
                         <outlet property="lastNameField" destination="oq4-CF-txT" id="LpT-Ul-aqL"/>
                         <outlet property="majorField" destination="DHz-8I-xbm" id="Y9p-1j-F4P"/>
+                        <outlet property="morePetsSwitch" destination="ESp-1S-VhR" id="wR2-W3-pkx"/>
                         <outlet property="numOfPetsLabel" destination="W0U-RN-s9E" id="RjQ-EH-pAA"/>
                         <outlet property="petsStepper" destination="MLD-cg-sGe" id="WC0-Lg-D7k"/>
                         <outlet property="schoolNameField" destination="LVu-wK-Eo4" id="g31-HC-rCw"/>
                         <outlet property="segmentControl" destination="NJR-Nn-lYN" id="yC0-Gz-PD3"/>
-                        <outlet property="whereYouFrom" destination="Jyj-he-xnb" id="c5Z-43-hAS"/>
                         <outlet property="yesNoSegCtrl" destination="qdm-M0-Vge" id="4Wl-ux-4GF"/>
                     </connections>
                 </viewController>
